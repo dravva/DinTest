@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages>
+  <page name="dev-center" titleKey="Page_Title_Homepage" cssTemplate="/dev/content/styles/dev-center.css" pathTemplate="dev-center" />
+  <page name="not-found" titleKey="Page_Title_404" cssTemplate="/dev/content/styles/generic.css" pathTemplate="generic" />
+  <page name="server-error" titleKey="Page_Title_500" cssTemplate="/dev/content/styles/generic.css" pathTemplate="generic" />
+  <page name="success-stories" titleKey="Page_Title_Success_Stories" navTitleKey="Success_Stories" cssTemplate="/dev/content/styles/success-stories.css" pathTemplate="success-stories" />
+  <page name="support" titleKey="Page_Title_Support" navTitleKey="Support" cssTemplate="/dev/content/styles/support.css" pathTemplate="support" />
+  <page name="terms-of-use" titleKey="Page_Title_Terms_of_Use" navTitleKey="Terms_of_Use" cssTemplate="/dev/content/styles/generic.css" pathTemplate="generic" />
+  <page name="downloads" titleKey="Page_Title_Downloads" navTitleKey="Downloads" cssTemplate="/dev/content/styles/downloads.css" pathTemplate="downloads" />
+  <page name="search" titleKey="Page_Title_Search_Results" cssTemplate="/dev/content/styles/search.css" pathTemplate="search" />
+  <page name="ocr" titleKey="Page_Title_OCR_Control" navTitleKey="OCR" cssTemplate="/dev/content/styles/product.css" pathTemplate="product" />
+  <page name="speech" titleKey="Page_Title_Speech" navTitleKey="Speech" cssTemplate="/dev/content/styles/product.css" pathTemplate="product" />
+  <page name="translator" titleKey="Page_Title_Translator" navTitleKey="Translator" cssTemplate="/dev/content/styles/product.css" pathTemplate="product" />
+  <page name="maps-preview-app" titleKey="Page_Title_Bing_Maps_Preview_App" cssTemplate="/dev/content/styles/maps-preview-app.css?dt=20131206" pathTemplate="generic" />
+</pages>
+
+

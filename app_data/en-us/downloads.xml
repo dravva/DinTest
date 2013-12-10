@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<document name="downloads">
+  <description>Developer downloads for Bing controls, services and APIs.</description>
+  <products>
+    <product image="maps-48x48.png" href="http://www.microsoft.com/maps/choose-your-bing-maps-API.aspx" target="w_BingDevCenter">
+      <header>Maps SDK</header>
+      <subtext>for Windows Store apps</subtext>
+      <content>
+        <![CDATA[
+          <p>Incorporate the latest road maps and aerial views from Bing Maps into your Windows Store app 
+          using JavaScript, C#, C++, or Visual Basic. To get started, see the <a target="w_BingDevCenter"
+          href="http://download.microsoft.com/download/6/1/9/619D8FDB-3B3D-436D-919A-91DBD5AC6EF9/BingMaps for Windows Store Apps Developer Guide Final.pdf">Bing Maps 
+          for Windows Store Apps Developer Guide</a>.<br /><b>Note:</b> This SDK is part of a <a 
+          target="w_BingDevCenter" href="http://www.microsoft.com/maps/choose-your-bing-maps-API.aspx">suite 
+          of Bing Maps controls and services</a>.</p>
+        ]]>
+      </content>
+      <link target="w_BingDevCenter" href="http://www.microsoft.com/maps/create-a-bing-maps-key.aspx">Get a Bing Maps Key</link>
+      <link target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/?LinkID=312992&amp;clcid=0x409">Download the Maps SDK​ (for Windows 8)</link>
+      <link target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/?LinkID=322092">Download the Maps SDK (for Windows 8.1)</link>
+    </product>
+    <product image="speech-48x48.png" href="speech">
+      <header>Speech Recognition Control</header>
+      <subtext>for Windows Store apps</subtext>
+      <content>
+        <![CDATA[
+          <p>Integrate speech recognition into your Windows 8 and 8.1 Store apps with the Speech Recognition Control. 
+          The control accepts voice input through the microphone and returns the recognized text to the application. </p>
+        ]]>
+      </content>
+      <link target="w_BingDevCenter" href="https://datamarket.azure.com/dataset/bing/speechcontrol">Subscribe to the Speech Recognition Control</link>
+      <link href="http://go.microsoft.com/fwlink/?LinkID=328620&amp;clcid=0x409">Download the Speech Recognition Control (for Windows 8)</link>
+      <link href="http://go.microsoft.com/fwlink/?LinkID=328621&amp;clcid=0x409">Download the Speech Recognition Control (for Windows 8.1)</link>
+    </product>
+    <product image="ocr-48x48.png" href="ocr">
+      <header>Optical Character Recognition Control</header>
+      <subtext>for Windows Store apps</subtext>
+      <content>
+        <![CDATA[
+          <p>Integrate Microsoft’s robust cloud-based optical character recognition (OCR) control that 
+          detects printed text from an image captured through the device camera into your Windows 8.1 app.</p>
+        ]]>
+      </content>
+      <link target="w_BingDevCenter" href="https://datamarket.azure.com/dataset/bing/ocrcontrol">Subscribe to the OCR Control</link>
+      <link href="http://go.microsoft.com/fwlink/?LinkID=309624&amp;clcid=0x409">Download the OCR Control</link>
+    </product>
+    <product image="translator-48x48.png" href="translator">
+      <header>Translator Control</header>
+      <subtext>for Windows Store apps</subtext>
+      <content>
+        <![CDATA[
+          <p>The Translator control gives the Windows 8.1 developer easy access to language translation services. 
+          After download and one-time authentication, you can simply place the "Bing Translator" control in 
+          your app, feed it a string to translate, and receive the translation.</p>
+        ]]>
+      </content>
+      <link target="w_BingDevCenter" href="http://datamarket.azure.com/dataset/bing/microsofttranslator">Subscribe to the Translator API</link>
+      <link target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/?LinkID=309707&amp;clcid=0x409">Download the Translator Control</link>
+    </product>
+    <product image="ads-48x48.png" href="http://www.adsinapps.microsoft.com" target="w_BingDevCenter">
+      <header>Windows 8 Ads in Apps SDK</header>
+      <subtext>for Windows Store apps</subtext>
+      <content>
+        <![CDATA[
+          <p>Use advertising to monetize your applications while presenting a rich, engaging and 
+          immersive advertising experience to your users.</p>
+        ]]>
+      </content>
+      <link target="w_BingDevCenter" href="http://adsinapps.microsoft.com/sdk">Download the Windows 8 Ads SDK</link>
+    </product>
+  </products>
+  <relproducts>
+    <product>
+      <header>Windows Phone SDK</header>
+      <content>
+        <![CDATA[
+          <p>The Windows Phone Software Development Kit (SDK) includes all of the tools that 
+          you need to develop apps and games for Windows Phone.  Download Windows Phone SDK to
+          use Speech-to-Text and Text-to-Speech capabilities.</p>
+        ]]>
+      </content>
+      <link target="w_BingDevCenter" href="http://dev.windowsphone.com/en-us/downloadsdk">Download the SDK</link>
+    </product>
+  </relproducts>
+</document>

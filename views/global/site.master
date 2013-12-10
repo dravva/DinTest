@@ -1,0 +1,145 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage<Microsoft.Bing.DevCenter.Models.GenericPage>" %>
+<%@ Import Namespace="Microsoft.Bing.DevCenter" %>
+<%@ Import Namespace="Microsoft.Bing.DevCenter.Resources" %><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title><asp:ContentPlaceHolder id="PageTitle" runat="server" /></title>
+<link type="text/css" rel="Stylesheet" href="/dev/content/styles/global.css?dt=20130918" />
+<asp:ContentPlaceHolder id="PageHeaderTags" runat="server" />
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="/dev/content/scripts/global.js"></script>
+<link href="/dev/content/images/bing.ico?dt=20130918" rel="shortcut icon" />
+</head>
+<body>
+    <div class="pageWrapper">
+        <div class="headerWrapper">
+            <div class="headerLeftContent">
+                <div class="headerLogoWrapper">
+                    <a href="<%: string.Format("/dev/{0}/dev-center", Model.LocaleID) %>">
+                        <div class="headerLogoImage"><img src="/dev/content/images/chrome/bing_65x25.jpg" 
+                            alt="<%: Strings.Bing %>" /><span><%= Strings.Bing %></span></div></a>
+                    <div class="headerLogoText"><%= Strings.Dev_Center %></div>
+                </div>
+            </div>
+            <div class="headerRightContent">
+                <div class="headerSearchWrapper">
+                    <div class="headerSearchBox">
+                        <form action="search" method="get">                            
+                            <input id="headerSearchBoxText" name="query" type="text" maxlength="100" autocomplete="off"
+                                onfocus="Epx.Controls.SearchBox.watermarkFocus(this, this.title, 'TextBoxSearch')" 
+                                onblur="Epx.Controls.SearchBox.watermarkBlur(this, this.title, 'TextBoxSearch')" 
+                                value="<%: Strings.Search_Dev_Center_with_Bing %>" 
+                                title="<%: Strings.Search_Dev_Center_with_Bing %>" />
+                            <input name="Refinement" type="hidden" value="<%: Constants.SearchApiRefinementId %>" />
+                            <input id="headerSearchBoxButton" type="submit" value="" 
+                                title="<%: Strings.Search_Dev_Center_with_Bing %>" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="headerNavigation">
+                <ul>
+                    <li><%= Helpers.GetNavigationLink("dev-center", Strings.Home, Model) %></li>
+                    <li><a href="<%: string.Format("http://msdn.microsoft.com/{0}/library/dd877956.aspx", Model.LocaleID) %>" title="<%: Strings.Docs %>" target="w_BingDevCenter"><%= Strings.Docs %></a></li>
+                    <li><a href="http://code.msdn.microsoft.com/bing" title="<%: Strings.Samples %>" target="w_BingDevCenter"><%= Strings.Samples %></a></li>
+                    <li><%= Helpers.GetNavigationLink("downloads", Strings.Downloads, Model) %></li>
+                    <li><%= Helpers.GetNavigationLink("support", Strings.Support, Model) %></li>
+                </ul>
+            </div>
+            <asp:ContentPlaceHolder id="PageBreadcrumbNavigation" runat="server" />
+        </div>        
+        <div class="contentWrapper">
+            <!-- Start Wrapper -->
+            <!-- <%= System.DateTime.Now.ToString() %> -->
+
+            <asp:ContentPlaceHolder id="PageContent" runat="server" />
+
+            <!-- End Wrapper -->
+            <div class="clear"></div>
+        </div>
+        <div class="footerWrapper">
+            <div class="footerLeftContent">
+                <div class="footerMSLogo">
+                    <a href="<%: string.Format("http://www.microsoft.com/{0}", Model.LocaleID) %>"
+                        title="<%: Strings.Microsoft %>"><span><%= Strings.Microsoft %></span></a>
+                </div>
+                <div class="footerNavigation">
+                    <ul>
+                        <li><a 
+                            href="<%: string.Format("http://www.microsoft.com/{0}/legal/intellectualproperty/Permissions/default.aspx", Model.LocaleID) %>"
+                            title="<%: Strings.Copyright_Microsoft %>" 
+                            target="w_BingDevCenter"><%= Strings.Copyright_Microsoft %></a></li>
+                        <li><a 
+                            href="http://support.microsoft.com/contactus/"
+                            title="<%: Strings.Contact_Us %>" 
+                            target="w_BingDevCenter"><%= Strings.Contact_Us %></a></li>
+                        <li><a 
+                            href="http://go.microsoft.com/fwlink/?LinkId=248681"
+                            title="<%: Strings.Privacy_Statement %>" 
+                            target="w_BingDevCenter"><%= Strings.Privacy_Statement %></a></li>
+                        <li><a 
+                            href="<%: string.Format("/dev/{0}/terms-of-use", Model.LocaleID) %>" 
+                            title="<%: Strings.Terms_of_Use %>"><%= Strings.Terms_of_Use %></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerRightContent">
+            <% if (Model.AssetID != "terms-of-use")
+            { %>
+                <div style="width:195px;overflow:hidden">
+                <div id="MicrosoftTranslatorWidget" style="width: 200px; border-color: #3A5770; background-color: #78ADD0;">
+                <noscript><a href="http://www.microsofttranslator.com/bv.aspx?a=http%3a%2f%2fwww.bing.com%2f">Translate this page</a><br />
+                Powered by <a href="http://www.bing.com/translator">Microsoft® Translator</a></noscript></div>
+                <script type="text/javascript"> /* <![CDATA[ */
+                    setTimeout(function () {
+                        var s = document.createElement("script");
+                        s.type = "text/javascript"; s.charset = "UTF-8"; s.src = ((location && location.href && location.href.indexOf('https') == 0) ? "https://ssl.microsofttranslator.com" : "http://www.microsofttranslator.com") + "/ajax/v2/widget.aspx?mode=manual&from=en&layout=ts"; var p = document.getElementsByTagName('head')[0] || document.documentElement; p.insertBefore(s, p.firstChild);
+                    }, 0); /* ]]> */ </script></div>
+            <%       
+            } %>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <asp:ContentPlaceHolder id="ScriptsSection" runat="server" />
+<!-- SiteCatalyst code version: H.24.3.
+Copyright 1996-2012 Adobe, Inc. All Rights Reserved
+More info available at http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript" src="/dev/content/scripts/s_code.js"></script>
+<script language="JavaScript" type="text/javascript"><!--
+    /* You may give each page an identifying name, server, and channel on
+    the next lines. */
+    s.pageName = "<%: Model.Title %>";
+    s.server = window.location.hostname;
+    s.channel = "";
+    s.pageType = "";
+    s.prop1 = "";
+    s.prop2 = "<%: Model.LocaleID %>";
+    s.prop3 = "";
+    s.prop4 = "";
+    s.prop5 = "";
+    s.prop8 = "D=g";
+    /* Conversion Variables */
+    s.campaign = "";
+    s.state = "";
+    s.zip = "";
+    s.events = "";
+    s.products = "";
+    s.purchaseID = "";
+    s.eVar1 = "";
+    s.eVar2 = s.prop2;
+    s.eVar3 = "";
+    s.eVar4 = "";
+    s.eVar5 = "";
+    s.eVar8 = s.prop8;
+    /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+    var s_code = s.t(); if (s_code) document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+    if (navigator.appVersion.indexOf('MSIE') >= 0) document.write(unescape('%3C') + '\!-' + '-');
+    //--></script><noscript><img src="http://microsoftwlsearchcrm.112.2o7.net/b/ss/mswlsrccrmbingdevcenter/1/H.24.3--NS/0"
+height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.24.3. -->
+
+<!-- [<%= Config.GetPublicationRegion() %>] -->
+
+</body>
+</html>

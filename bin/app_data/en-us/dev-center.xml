@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<document name="dev-center">
+  <description>Developer downloads and information for programming using Bing controls, services and APIs.</description>
+  <heroes>
+    <hero image="hero_speech_980x280.jpg" type="0">
+      <header>New Bing Speech Control</header>
+      <subtext>for Windows 8 and 8.1</subtext>
+      <content>
+        <![CDATA[
+          <div class="larger">Free your hands</div>
+          <div class="normal">
+              <span>Communicate naturally with the new Bing Speech Recognition Control for Windows 8 and 8.1.</span>
+          </div>
+        ]]>
+      </content>
+      <link href="speech">Get started with Speech</link>
+    </hero>
+    <hero image="hero01_980x280.jpg" type="0">
+      <header>Bing Maps Platform</header>
+      <subtext>A mapping solution built for the enterprise</subtext>
+      <content>
+        <![CDATA[
+          <div class="larger">Code with confidence</div>
+          <div class="normal">
+              <span>Incorporate location and local search features into your web applications.</span>
+          </div>
+        ]]>
+      </content>
+      <link target="w_BingDevCenter" href="http://www.microsoft.com/maps/create-a-bing-maps-key.aspx">Get a key</link>
+    </hero>
+    <hero image="hero03_ocr_980x280.jpg" type="0">
+      <header>Bing Optical Character Recognition (OCR) Control</header>
+      <subtext>Now with five new languages</subtext>
+      <content>
+        <![CDATA[
+          <div class="larger">Capture characters</div>
+          <div class="normal">
+              <span>Add robust OCR capabilities in 12 different languages to your Windows 8.1 apps.</span>
+          </div>
+        ]]>
+      </content>
+      <link href="ocr">Get started with OCR</link>
+    </hero>
+    <hero image="hero04_build_980x280.jpg" type="0">
+      <header>&#160;</header>
+      <subtext>&#160;</subtext>
+      <content>
+        <![CDATA[
+          <div class="larger">Watch //build/ 2013</div>
+          <div class="normal">
+              <span>Check out<br /><a target="w_BingDevCenter" href="http://channel9.msdn.com/Events/Build/2013?sort=sequential&amp;direction=desc&amp;s=altaf-gilani&amp;s=jay-waltmunson&amp;s=Johannes-Kebeck&amp;s=sriram-subramanian">Bing videos</a><br /> from //build/ 2013.</span>
+          </div>
+        ]]>
+      </content>
+      <link target="w_BingDevCenter" href="http://channel9.msdn.com/Events/Build/2013?sort=sequential&amp;direction=desc&amp;s=altaf-gilani&amp;s=jay-waltmunson&amp;s=Johannes-Kebeck&amp;s=sriram-subramanian">Watch our videos</link>
+    </hero>
+  </heroes>
+  <products>
+    <product image="maps-48x48.png" href="http://www.microsoft.com/maps/choose-your-bing-maps-API.aspx" target="w_BingDevCenter">
+      <header>Maps</header>
+      <subtext>Building with Bing Maps</subtext>
+      <content>
+        <![CDATA[
+          <p>Bing Maps Platform offers a set of APIs to incorporate the latest maps, 
+          imagery and location services in your application.</p>
+        ]]>
+      </content>
+      <link target="w_BingDevCenter" href="http://www.microsoft.com/maps/choose-your-bing-maps-API.aspx">Find out more</link>
+    </product>
+    <product image="speech-48x48.png?dt=20130918" href="speech">
+      <header>Speech</header>
+      <subtext>Interacting with voice</subtext>
+      <content>
+        <![CDATA[
+          <p>Get Bing Speech capabilities integrated with your Windows Phone and Windows Store apps.</p>
+        ]]>
+      </content>
+      <link href="speech">Find out more</link>
+    </product>
+    <product image="ocr-48x48.png" href="ocr">
+      <header>OCR Control</header>
+      <subtext>Capture characters</subtext>
+      <content>
+        <![CDATA[
+          <p>The Bing Optical Character Recognition (OCR) Control detects printed text from images 
+          captured by the device camera. </p>
+      ]]>
+      </content>
+      <link href="ocr">Find out more</link>
+    </product>
+    <product image="translator-48x48.png" href="translator">
+      <header>Translator</header>
+      <subtext>Your window to the world</subtext>
+      <content>
+        <![CDATA[
+          <p>The Bing Translator Control and Microsoft Translator API receive text and deliver 
+          automatic machine translation into a specified language.</p>
+        ]]>
+      </content>
+      <link href="translator">Find out more</link>
+    </product>
+    <product image="ads-48x48.png" href="http://adsinapps.microsoft.com/" target="w_BingDevCenter">
+      <header>Ads SDK</header>
+      <subtext>Monetize your ideas</subtext>
+      <content>
+        <![CDATA[
+          <p>Whether you're developing in HTML or XAML, the Microsoft Advertising SDK has made it
+          easy to insert ads into your Windows 8 and Windows 8.1 apps.</p>
+        ]]>
+      </content>
+      <link target="w_BingDevCenter" href="http://adsinapps.microsoft.com/">Find out more</link>
+    </product>
+    <product image="bing-ads-api-48x48.png" href="http://developers.bingads.com/" target="w_BingDevCenter">
+      <header>Ads API</header>
+      <subtext>Manage ads on Bing &amp; Yahoo</subtext>
+      <content>
+        <![CDATA[
+          <p>The Bing Ads API enables advertisers, agencies, and 3rd parties manage their Ads accounts more effectively.</p>
+        ]]>
+      </content>
+      <link target="w_BingDevCenter" href="http://developers.bingads.com/">Find out more</link>
+    </product>
+    <product image="search-48x48.png" href="http://go.microsoft.com/fwlink/?LinkId=309650" target="w_BingDevCenter">
+      <header>Search API</header>
+      <subtext>Search by Microsoft​</subtext>
+      <content>
+        <![CDATA[
+          <p>The Bing Search API enables developers to embed search results in applications.</p>
+      ]]>
+      </content>
+      <link target="w_BingDevCenter" href="https://ssl.bing.com/webmaster/developers/appids">Sign in for high volume customers</link>
+      <link target="w_BingDevCenter" href="http://download.microsoft.com/download/0/4/E/04E076D4-60B2-4D31-BCC7-C4805B558DBB/Bing%20product%20guidelines.pdf">Review brand attribution guidelines</link>
+      <link target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/?LinkId=309650">Find out more</link>
+    </product>
+    <product image="synonyms-48x48.png" target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/?LinkId=309646">
+      <header>Synonyms API</header>
+      <subtext>Alternate entity names</subtext>
+      <content>
+        <![CDATA[
+          <p>The Bing Synonyms API returns alternate ways people refer to real world entities 
+          like products, people, and locations.</p>
+        ]]>
+      </content>
+      <link target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/?LinkId=309647">Find out more</link>
+    </product>
+    <product image="webmaster-48x48.png" target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/p/?LinkId=309385">
+      <header>Webmaster API</header>
+      <subtext>Automated access to your data</subtext>
+      <content>
+        <![CDATA[
+          <p>The Bing Webmaster API helps developers and site owners automate and track their 
+          search performance data and SEO activities.</p>
+        ]]>
+      </content>
+      <link target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/?LinkId=309385">Webmaster tools</link>
+      <link target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/?LinkId=309390">Find out more</link>
+    </product>
+    <product image="entity-api-48x48.png" target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/?LinkId=331498">
+      <header>Entity API</header>
+      <subtext>Available for developer preview</subtext>
+      <content>
+        <![CDATA[
+          <p>The Bing Entity API provides information about entities such as products, people, or locations, their associated 
+          attributes, and their relationships to other entities.</p>
+        ]]>
+      </content>
+      <link target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/?LinkId=331498">Sign up for the developer preview</link>
+    </product>
+  </products>
+  <success>
+    <content>
+      <![CDATA[
+          <p>See how market-leaders create innovative apps using Bing services.</p>
+      ]]>
+    </content>
+    <link href="success-stories" />
+  </success>
+  <about>
+    <content>
+      <![CDATA[
+          <p>Learn more about Bing as a platform.</p>
+      ]]>
+    </content>
+    <link target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/?LinkId=309717" />
+  </about>
+</document>

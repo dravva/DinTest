@@ -1,0 +1,191 @@
+﻿
+/* div.contentWrapper defaults */
+
+div.contentWrapper {
+    padding-top: 36px;
+}
+
+div.contentWrapper,
+div.contentWrapper div {
+    line-height: 1em;
+}
+
+span.nowrap {
+    white-space: nowrap;
+}
+
+/* grid common properties */
+
+div.contentBottomPanel,
+div.contentTopPanel {
+    width: 1008px; 
+    overflow: hidden;
+}
+div.contentTile {
+    float: left;
+    margin-right: 12px;
+    overflow: hidden;
+}
+h1.contentSectionHeader {
+    font-family: 'Segoe UI Semilight', 'Segoe UI Light', 'Segoe UI';
+    font-size: 22px;
+    color: #454545;
+    white-space: nowrap;
+    padding-bottom: 37px;
+}
+div.contentTileContent {
+    font-size: 12px;
+    overflow: hidden;
+    color: #333;
+}
+div.contentTileContentVerbiage {
+    line-height: 20px !important;
+}
+div.contentTileContentLinks {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    line-height: 26px !important;
+    white-space: nowrap;
+}
+
+/* top panel grid */
+
+div.contentTopPanel div.contentTile {
+    position: relative;
+    height: 274px;
+    width: 478px;
+    background-color: #ffe4b9;  /* #ffa615 @ 30% */
+    background-position: 0 8px;
+    background-repeat: no-repeat;
+    background-image: none;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+div.contentTopPanel h1.contentSectionHeader {
+    font-size: 28px;
+    padding-bottom: 36px;
+}
+div.contentTopPanel div.contentTileCanvas {
+    margin-left: 48px; 
+    height: 258px; 
+    overflow: hidden;
+    padding: 16px 6px 0 12px; 
+    background-color: #f6f6f6;  /* #d4d4d4 @ 20% */
+    background-color: #fafafa;  /* #d4d4d4 @ 10% */
+    background-color: #f8f8f8;  /* #d4d4d4 @ 15% */
+}
+div.contentTopPanel div.contentTileLogoLink {
+    position: absolute;
+    margin-left: -60px;
+    top: 12px;
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+}
+div.contentTopPanel div.contentTileBanner {
+    height: 56px;
+    overflow: hidden;
+}
+div.contentTopPanel h2.contentTileHeader {
+    cursor: pointer;
+    font-family: 'Segoe UI Semilight', 'Segoe UI Light', 'Segoe UI';
+    font-size: 22px;
+    line-height: 26px;
+    color: #454545;
+    padding-bottom: 1px;
+    max-height: 52px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+div.contentTopPanel div.contentTileSubtext {
+    cursor: pointer;
+    font-family: 'Segoe UI Semilight', 'Segoe UI Light', 'Segoe UI';
+    font-size: 16px;
+    line-height: 24px;
+    color: #666;
+}
+div.contentTopPanel div.contentTileContent {
+    height: 80px;
+    overflow: hidden;
+}
+div.contentTopPanel div.contentTileContentLinks {
+    padding-top: 9px;
+}
+
+/* bottom panel grid */
+
+div.contentBottomPanel {
+    padding-top: 28px;
+    padding-top: 16px;
+}
+div.contentBottomPanel div.contentTile {
+    height: 116px;
+    width: 484px;
+    overflow: hidden;
+    margin-bottom: 22px;
+}
+div.contentBottomPanel h2.contentTileHeader {
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    line-height: 1em;
+    height: 1em;
+    color: #000;
+    white-space: nowrap;
+    padding-bottom: 5px;
+}
+div.contentBottomPanel div.contentTileContentVerbiage {
+    line-height: 22px !important;
+    max-height: 66px;
+    overflow: hidden;
+}
+div.contentBottomPanel div.contentTileContentLinks {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    line-height: 26px !important;
+    padding-top: 4px;
+}
+
+/* div.contentWrapper overrides */
+
+div.contentWrapper a
+div.contentWrapper a:link,
+div.contentWrapper a:visited,
+div.contentWrapper a:active,
+div.contentWrapper a:hover {
+    color: #0044cc;
+}
+div.contentWrapper a:hover {
+    text-decoration: underline;
+}
+h2.contentTileHeader a,
+h2.contentTileHeader a:link,
+h2.contentTileHeader a:visited,
+h2.contentTileHeader a:active,
+h2.contentTileHeader a:hover {
+    color: #454545;    
+}
+h2.contentTileHeader a,
+h2.contentTileHeader a:hover {
+    text-decoration: none;
+}
+
+div.contentTopPanel div.contentTileLinkItem,
+div.contentBottomPanel div.contentTileLinkItem {
+    white-space: nowrap;
+    width: 100%;
+    height: 23px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 22px;
+}
+
+div.contentTileLinkDescriptor {
+    font-size: 12px;
+    position: relative;
+    margin-top: 3px;
+    top: 2px;
+}
+
+
+
+

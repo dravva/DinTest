@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<document>
+  <description>List of success stories from companies implementing Bing controls and services.</description>
+  <product image="success-hero-epicurious.png" href="http://go.microsoft.com/fwlink/?LinkID=311556&amp;clcid=0x409">
+    <header>See how Epicurious uses Speech to enable hands-free use of their app while preparing meals.</header>
+    <content>
+      <![CDATA[
+        <p>Using integrated speech functionality, the Epicurious app lets users prepare 
+        meals without ever touching their phones. The app can read ingredients and 
+        step-by-step instructions using Speech Synthesis. Users navigate and control 
+        the app with the speech recognition API. Users can even start the app with 
+        a voice command, using the Voice Command Definition file (VCD).</p>
+      ]]>
+    </content>
+  </product>
+  <product image="success-logo-discovery-60x60.png" href="http://go.microsoft.com/fwlink/?LinkID=311562&amp;clcid=0x409">
+    <header>Discovery application</header>
+    <content>
+      <![CDATA[
+        <p>The ​Discovery application launches using Voice Command Definition files (VCD). 
+        Enhanced navigation supports Speech Synthesis, In-App Speech and 
+        Continuous Recognition.</p>
+      ]]>
+    </content>
+  </product>
+  <product image="success-logo-vimeo-60x60.png" href="http://go.microsoft.com/fwlink/?LinkID=311558&amp;clcid=0x409">
+    <header>Vimeo application</header>
+    <content>
+      <![CDATA[
+        <p>Vimeo now allows voice commands by using a Voice Command Definition file (VCD). 
+        Speech recognition APIs allow initiation of voice commands associated with Vimeo 
+        content.  You can say "Open Vimeo My Videos" to access your Vimeo videos.</p>
+      ]]>
+    </content>
+  </product>
+  <product image="success-logo-marketwatch-60x60.png" href="http://go.microsoft.com/fwlink/?LinkID=311559&amp;clcid=0x409">
+    <header>Marketwatch application</header>
+    <content>
+      <![CDATA[
+        <p>The Marketwatch application launches using Voice Command Definition files (VCD), and enables 
+        stock look-up with Voice Search APIs, Speech Synthesis, and Continuous Recognition.</p>
+      ]]>
+    </content>
+  </product>
+  <product image="success-logo-nbcnews-60x60.png" href="http://go.microsoft.com/fwlink/?LinkID=311560&amp;clcid=0x409">
+    <header>NBC News application</header>
+    <content>
+      <![CDATA[
+        <p>The NBC News application launches using Voice Command Definition files (VCD). It enables
+        Headline search through Voice Search APIs, Speech Synthesis, and 
+        Continuous Recognition.</p>
+      ]]>
+    </content>
+  </product>
+  <product image="success-logo-packagetracker-60x60.png" 
+           href="http://apps.microsoft.com/windows/en-us/app/package-tracker/0cd606d5-c0fb-46c8-b9dc-1459ac714e17">
+    <header>Package Tracker application</header>
+    <content>
+      <![CDATA[
+        <p>Package Tracker provides tracking information about your package for over 60 different carriers. It 
+        uses the Bing Maps SDK for Windows Store apps to show the last location of your package on a map.</p>
+      ]]>
+    </content>
+  </product>
+  <product image="success-logo-londonbuschecker-60x60.png" 
+           href="http://apps.microsoft.com/windows/en-GB/app/london-bus-checker/2d8d06d9-8813-4456-b70a-5716b7ac12c9">
+    <header>London Bus Checker application</header>
+    <content>
+      <![CDATA[
+        <p>London Bus Checker provides real-time bus arrival information for London buses. It uses the Bing Maps SDK 
+        for Windows Store apps to display bus routes and stops.</p>
+      ]]>
+    </content>
+  </product>
+  <product image="success-logo-floodalerts-60x60.png" 
+           href="http://apps.microsoft.com/windows/en-gb/app/floodalerts/34357a3c-0da4-4b63-84a7-2360b10fd185">
+    <header>FloodAlerts application</header>
+    <content>
+      <![CDATA[
+        <p>FloodAlerts provides real-time flood warning in England and Wales. It uses the Bing Maps SDK for Windows 
+        Store apps to display where flooding is occurring and where potential flooding may occur. </p>
+      ]]>
+    </content>
+  </product></document>

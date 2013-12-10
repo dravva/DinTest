@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rssFeeds>
+  <rssFeed name="dev-center-feed" viewType="0" feedUrl="http://blogs.msdn.com/b/bingdevcenter/rss.aspx">
+    <supportedLocales>en-us</supportedLocales>
+  </rssFeed>
+  <rssFeed name="support-feed-00" viewType="1" feedUrl="http://blogs.msdn.com/b/bingdevcenter/rss.aspx">
+    <supportedLocales>en-us</supportedLocales>
+  </rssFeed>
+  <rssFeed name="support-feed-01" viewType="1" feedUrl="http://www.bing.com/blogs/site_blogs/b/maps/rss.aspx">
+    <supportedLocales>en-us</supportedLocales>
+  </rssFeed>
+  <rssFeed name="support-feed-02" viewType="1" feedUrl="http://blogs.msdn.com/b/translation/rss.aspx">
+    <supportedLocales>en-us</supportedLocales>
+  </rssFeed>
+  <rssFeed name="support-feed-03" viewType="1" feedUrl="http://www.bing.com/blogs/b/mainfeed.aspx?Type=BlogsOnly">
+    <supportedLocales>en-us</supportedLocales>
+  </rssFeed>
+</rssFeeds>

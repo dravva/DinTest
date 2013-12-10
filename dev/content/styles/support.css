@@ -1,0 +1,176 @@
+﻿
+/* div.contentWrapper defaults */
+
+div.contentWrapper {
+    padding-top: 10px;
+}
+
+div.contentWrapper,
+div.contentWrapper div {
+    line-height: 1em;
+}
+
+/* two column grid */
+
+div.contentResourcePanel {
+    min-height: 400px;
+    padding-top: 35px;
+}
+
+div.contentLeftContent {
+    float: left;
+    width: 546px;
+    overflow: hidden;
+}
+div.contentRightContent {
+    width: 422px;
+    min-height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+h1.contentSectionHeader {
+    font-family: 'Segoe UI Light', 'Segoe UI';
+    font-size: 26px;
+    color: #454545;
+    font-weight: 600;
+    white-space: nowrap;
+    padding-bottom: 24px;
+}
+div.contentTileLogo {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+}
+div.contentTileCanvas {
+    padding-left: 54px;
+}
+h2.contentTileHeader {
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    white-space: nowrap;
+    padding-bottom: 6px;
+    margin-top: -1px;
+}
+div.contentTileContentVerbiage {
+    width: 400px;
+}
+div.contentTileContentVerbiage,
+div.contentTileContentLinks div {
+    font-size: 12px;
+    line-height: 22px !important;
+}
+div.contentLeftContent div.contentTile {
+    width: 236px;
+    width: 544px;
+    margin-bottom: 36px;
+}
+
+/* div.contentRightContent styles */
+
+div.contentRightContent div.contentTile {
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+div.contentRightContent div.contentFeedItem {
+    width: 420px;
+    overflow: hidden;
+}
+div.contentRightContent h2.contentTileHeader {
+    padding-bottom: 4px;
+}
+div.contentRightContent h2.contentTileHeader span {
+    font-weight: 700
+}
+div.contentRightContent div.contentTileContent {
+    font-size: 12px;
+    line-height: 22px !important;
+    padding-top: 6px;
+}
+#blogContentLinks {
+    position: relative;
+    font-size: 12px;
+    padding: 24px 0 18px 0;
+}
+#blogContentLinks span.date {
+    font-weight: 600;
+    position: relative;
+    display: block;
+    padding-bottom: 2px;
+}
+#blogContentLinks span.link {
+    position: relative;
+    display: block;
+    width: 230px;
+    padding-bottom: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#blogContentLinks span.month {
+    font-weight: 700;
+}
+#blogContentLinks a {
+    text-decoration: none; 
+}
+
+/* link hover overrides */
+
+div.contentLeftContent a:hover,
+div.contentRightContent a:hover {
+    text-decoration: underline;
+}
+h2.contentTileHeader a:hover,
+div.contentRightContent a.contentTileLink:hover {
+    text-decoration: none;
+}
+
+h2.contentTileHeader a,
+h2.contentTileHeader a:link,
+h2.contentTileHeader a:visited,
+h2.contentTileHeader a:active,
+h2.contentTileHeader a:hover {
+    color: #000;
+}
+
+/* div.contentWrapper line-height overrides */
+
+div.contentRightContent div.contentTileSubtext {
+    font-size: 12px;
+    color: #666;
+}
+
+div.contentRightContent div.contentTileSubtext,
+div.blogContentLinks span.link {
+    line-height: 18px !important;
+}
+
+
+
+div.contentRightContent div.blogContentLinks {
+    position: relative;
+    font-size: 12px;
+    padding-top: 6px;
+}
+div.contentRightContent div.blogContentLinks span.date {
+    font-weight: 600;
+    position: relative;
+    display: block;
+    padding-bottom: 2px;
+}
+div.contentRightContent div.blogContentLinks span.link {
+    position: relative;
+    display: block;
+    width: 230px;
+    padding-bottom: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+div.contentRightContent div.blogContentLinks span.month {
+    font-weight: 700;
+}
+div.contentRightContent div.blogContentLinks a {
+    text-decoration: none; 
+}
+
+

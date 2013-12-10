@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<document>
+  <description>List of Bing products, controls, services and APIs.</description>
+  <product name="speech" image="product-hero-speech.jpg">
+    <description>The Bing Speech Control</description>
+    <title>Speech</title>
+    <heroText>Interacting with voice</heroText>
+    <section>
+      <header>Getting started</header>
+      <detail>
+        <header>Voice Commands</header>
+        <content>
+          <![CDATA[
+            <p>Lets users open and navigate your app with their voices.</p>
+          ]]>
+        </content>
+      </detail>
+      <detail>
+        <header>Speech Recognition</header>
+        <content>
+          <![CDATA[
+            <p>Transcribes user speech into text.</p>
+          ]]>
+        </content>
+      </detail>
+      <detail>
+        <header>Speech Synthesis</header>
+        <content>
+          <![CDATA[
+            <p>Also known as Text to Speech, speaks to users in a natural sounding voice.</p>
+          ]]>
+        </content>
+      </detail>
+      <detail>
+        <content>
+          <![CDATA[
+            <p>Download the Speech Recognition Control for <a target="w_BingDevCenter" 
+              href="http://go.microsoft.com/fwlink/?LinkID=328620&amp;clcid=0x409">Windows 8</a> and <a target="w_BingDevCenter" 
+              href="http://go.microsoft.com/fwlink/?LinkID=328621&amp;clcid=0x409">Windows 8.1</a>.<br />
+            Download the <a target="w_BingDevCenter" href="http://msdn.microsoft.com/en-US/windows/apps/bg182409">Windows 8.1 SDK</a> to get Speech Synthesis for Windows 8.1.<br />
+            Download the <a target="w_BingDevCenter" href="http://dev.windowsphone.com/en-us/downloadsdk">Windows Phone 8 SDK</a> to get all three capabilities for Windows Phone 8.</p>
+          ]]>
+        </content>
+      </detail>
+    </section>
+    <section>
+      <header>Samples</header>
+      <detail>
+        <header>Windows 8 and 8.1</header>
+        <link target="w_BingDevCenter" href="http://code.msdn.microsoft.com/Bing-Speech-Recognition-210c8978">Speech Recognition Control web search sample</link>
+        <link target="w_BingDevCenter" href="http://code.msdn.microsoft.com/Speech-Recognition-19c452b4">Speech Recognition Control custom UI sample</link>
+      </detail>
+      <detail>
+        <header>Windows 8.1 only</header>
+        <link target="w_BingDevCenter" href="http://code.msdn.microsoft.com/Speech-synthesis-sample-6e07b218">Speech synthesis sample</link>
+      </detail>
+      <detail>
+        <header>Windows Phone 8</header>
+        <link target="w_BingDevCenter" href="http://code.msdn.microsoft.com/wpapps/Alarm-Clock-with-voice-7b749124">Alarm Clock with Voice Commands Sample</link>
+        <link target="w_BingDevCenter" href="http://code.msdn.microsoft.com/wpapps/Speech-For-Windows-Phone-a04e69f9">Refreshing a phrase list using a background agent</link>
+      </detail>
+    </section>
+    <section>
+      <header>Documentation</header>
+      <detail>
+        <header>Windows 8 and 8.1</header>
+        <link target="w_BingDevCenter" href="http://msdn.microsoft.com/en-us/library/dn434583.aspx">The Bing Speech Recognition Control</link>
+      </detail>
+      <detail>
+        <header>Windows 8.1 only</header>
+        <link target="w_BingDevCenter" href="http://msdn.microsoft.com/en-us/library/windows.media.speechsynthesis.aspx">SpeechSynthesis namespace</link>
+      </detail>
+      <detail>
+        <header>Windows Phone 8</header>
+        <link target="w_BingDevCenter" href="http://msdn.microsoft.com/en-us/library/jj206958(v=vs.105).aspx">Speech overview</link>
+        <link target="w_BingDevCenter" href="http://msdn.microsoft.com/en-us/library/windowsphone/design/jj720572(v=vs.105).aspx">Speech design guidelines for Windows Phone</link>
+      </detail>
+
+    </section>
+    <section>
+      <header>Community content</header>
+      <detail>
+        <header>Windows Phone 8</header>
+        <link target="w_BingDevCenter" href="http://msdn.microsoft.com/magazine/jj721592">Speech-Enabling a Windows Phone 8 App, Pt 1: Voice Commands </link>
+        <link target="w_BingDevCenter" href="http://msdn.microsoft.com/en-us/magazine/jj863134.aspx">Speech-Enabling a Windows Phone 8 App, Pt 2: In-App Dialog</link>
+        <link target="w_BingDevCenter" href="http://blogs.msdn.com/b/robch/archive/2012/11/01/windows-phone-8-is-here-start-speech-enabling-your-apps.aspx">Windows Phone 8 is here! Start speech enabling your apps</link>
+      </detail>
+    </section>
+  </product>
+  <product name="ocr" image="product-hero-ocr.jpg">
+    <description>The Bing Optical Character Recognition (OCR) Control</description>
+    <title>Optical Character Recognition Control</title>
+    <heroText>Capture characters with the OCR Control</heroText>
+    <section>
+      <header>Getting started</header>
+      <detail>
+        <content>
+          <![CDATA[  
+            <p>Integrate Microsoft's robust cloud-based optical character recognition capabilities into 
+            your Windows 8.1 store apps in XAML and C# with the Bing Optical Character Recognition (OCR) 
+            control. The control detects printed text from an image captured by an app through the device 
+            camera.</p>
+          ]]>
+        </content>
+      </detail>
+      <detail>
+        <header>To get started:</header>
+        <link target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/?LinkId=309623 ">Subscribe to the control in the Windows Azure Marketplace</link>
+        <link target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/?LinkId=309624">Download the OCR Control</link>
+      </detail>
+    </section>
+    <section>
+      <header>Samples</header>
+      <detail>
+        <link target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/?LinkId=309842">OCR Demo sample</link>
+        <link target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/?LinkId=309844">OCR Image Translator sample</link>
+      </detail>
+    </section>
+    <section>
+      <header>Documentation</header>
+      <detail>
+        <link target="w_BingDevCenter" href="http://msdn.microsoft.com/en-us/library/dn261719.aspx">OCR Control overview</link>
+        <link target="w_BingDevCenter" href="http://msdn.microsoft.com/en-us/library/dn261737.aspx">Bing OCR Requirements</link>
+        <link target="w_BingDevCenter" href="http://msdn.microsoft.com/en-us/library/dn261753.aspx">Embedding the Bing OCR Control in an Application</link>
+        <link target="w_BingDevCenter" href="http://msdn.microsoft.com/en-us/library/dn261735.aspx">Bing.Ocr Namespace</link>
+      </detail>
+    </section>
+    <section>
+      <header>Community content</header>
+      <detail>
+        <link target="w_BingDevCenter" href="http://social.msdn.microsoft.com/Forums/en-US/bingdev/">Bing Developer General Forum</link>
+      </detail>
+    </section>
+  </product>
+  <product name="translator" image="product-hero-translator.jpg">
+    <description>The Bing Translator Control</description>
+    <title>Translator Control</title>
+    <heroText>Your window to the world</heroText>
+    <section>
+      <header>Getting started</header>
+      <detail>
+        <content>
+          <![CDATA[
+            <p>Get easy access to robust, cloud-based, automatic translation between more than 40 languages 
+            with the Bing Translator Control and the Microsoft Translator API.</p>
+          ]]>
+        </content>
+      </detail>
+      <detail>
+        <header>To get started:</header>
+        <link target="w_BingDevCenter" href="http://datamarket.azure.com/dataset/bing/microsofttranslator">Subscribe to the Translator Service in the Windows Azure Marketplace</link>
+        <link target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/?LinkId=309707&amp;clcid=0x409">Download the Translator Control</link>
+        <link target="w_BingDevCenter" href="http://msdn.microsoft.com/en-us/library/hh454949.aspx">Getting Started with Microsoft Translator</link>
+      </detail>
+    </section>
+    <section>
+      <header>Samples</header>
+      <detail>
+        <link target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/?LinkId=309840">Translator Control sample</link>
+        <link target="w_BingDevCenter" href="http://go.microsoft.com/fwlink/?LinkId=309844">OCR Image Translator sample</link>
+      </detail>
+    </section>
+    <section>
+      <header>Documentation</header>
+      <detail>
+        <link target="w_BingDevCenter" href="http://msdn.microsoft.com/en-us/library/dn261779.aspx">Translator Control</link>
+        <link target="w_BingDevCenter" href="http://msdn.microsoft.com/en-us/library/dn261783.aspx">Translator Control Requirements</link>
+        <link target="w_BingDevCenter" href="http://msdn.microsoft.com/en-us/library/dn261765.aspx">Adding the Translator Control to an Application</link>
+        <link target="w_BingDevCenter" href="http://msdn.microsoft.com/en-us/library/dd576287.aspx">Translator SDK</link>
+        <link target="w_BingDevCenter" href="http://msdn.microsoft.com/en-us/library/dd576287.aspx">Translator API</link>
+        <link target="w_BingDevCenter" href="http://msdn.microsoft.com/en-us/library/hh454949.aspx">Getting Started with Microsoft Translator API</link>
+        <link target="w_BingDevCenter" href="http://msdn.microsoft.com/en-us/library/hh847649.aspx">API Sign Up Walkthrough Guide from library</link>
+      </detail>
+    </section>
+    <section>
+      <header>Community content</header>
+      <detail>
+        <link target="w_BingDevCenter" href="http://social.msdn.microsoft.com/Forums/en-US/microsofttranslator/threads/">Microsoft Translator Forum</link>
+        <link target="w_BingDevCenter" href="http://blogs.msdn.com/b/translation/">Microsoft Translator Blog</link>
+        <link target="w_BingDevCenter" href="https://www.facebook.com/bingtranslator">Follow Us on Facebook</link>
+        <link target="w_BingDevCenter" href="https://twitter.com/mstranslator">Follow Us on Twitter</link>
+        <link href="translator">Bing Translator Website</link>
+        <link target="w_BingDevCenter" href="http://www.microsoft.com/translator">More Translation Solutions from Microsoft</link>
+      </detail>
+    </section>
+  </product>
+</document>

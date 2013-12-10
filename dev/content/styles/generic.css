@@ -1,0 +1,60 @@
+﻿
+/* contentWrapper styles */
+
+div.contentWrapper {
+	padding-top: 32px;
+    line-height: 1em;
+    font-family: 'Segoe UI';
+    color: #333;
+    font-size: 14px;
+}
+div.contentWrapper, 
+div.contentWrapper div {
+	line-height: 1em;
+}
+
+/* contentPanel styles */
+
+div.contentPanel {
+    font-family: 'Segoe UI';
+    font-size: 12px;
+    width: 660px;
+    padding-right: 60px;
+    border-right: 1px solid #ccc;
+}
+div.contentPanel h1.contentSectionHeader {
+    font-family: 'Segoe UI Semilight', 'Segoe UI Light', 'Segoe UI';
+	color: #454545;
+	font-size: 28px;
+	margin-bottom: 28px;
+}
+div.contentPanel ul,
+div.contentPanel p {
+    padding:0;
+    margin:0;
+    margin-bottom: 16px;
+    line-height: 16px !important
+}    
+div.contentPanel ul {
+    margin-left: 1.5em;
+}
+div.contentPanel ul li {
+    padding-bottom: 9px;
+}
+div.contentPanel ul li:last-child {
+    padding-bottom: 0;
+}
+a.bkMkTop {
+    display: block;
+    padding-left: 11px;
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+    background-image: url(../../content/images/resources/arrow-up-7x9.gif);
+}
+ul.anchorItemToc {
+    list-style-image: url(../../content/images/resources/arrow-down-7x9.gif);
+}
+
+
+
+

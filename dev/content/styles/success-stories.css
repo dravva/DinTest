@@ -1,0 +1,180 @@
+﻿
+/* div.contentWrapper defaults */
+
+div.contentWrapper {
+    padding-top: 36px;
+}
+
+div.contentWrapper,
+div.contentWrapper div {
+    line-height: 1em;
+}
+
+/* grid common properties */
+
+div.contentBottomPanel,
+div.contentTopPanel {
+    width: 1008px; 
+    overflow: hidden;
+}
+
+div.contentTile {
+    float: left;
+    margin-right: 12px;
+    overflow: hidden;
+}
+
+div.contentBottomPanel {
+    margin-top: 30px;
+}
+
+h1.contentSectionHeader {
+    font-family: 'Segoe UI Semilight', 'Segoe UI Light', 'Segoe UI';
+    font-size: 22px;
+    color: #454545;
+    white-space: nowrap;
+    font-size: 28px;
+    padding-bottom: 40px;
+}
+
+div.contentTileContent {
+    overflow: hidden;
+    color: #333;
+}
+
+div.contentTileContentVerbiage {
+    font-size: 12px;
+    line-height: 22px !important;
+}
+
+/* top panel grid */
+
+div.contentTopPanel div.contentHeroPanelWrapper {
+    float: left;
+    padding-top: 4px;
+    width: 484px;
+    height: 284px;
+    overflow: hidden;
+}
+
+div.contentTopPanel div.contentHeroPanel {
+    width: 484px;
+    height: 280px;
+    overflow: hidden;
+}
+
+div.contentTopPanel div.contentTile {
+    position: relative;
+    height: 280px;
+    width: 472px;
+    margin-left: 24px;
+    overflow: hidden;
+}
+
+div.contentTopPanel div.contentTileCanvas {
+    margin-left: 0; 
+    padding: 0; 
+}
+
+div.contentTopPanel div.contentTileBanner {
+    height: 70px;
+    overflow: hidden;
+}
+
+div.contentTopPanel h2.contentTileHeader {
+    font-family: 'Segoe UI Semilight', 'Segoe UI Light', 'Segoe UI';
+    font-weight: lighter;
+    font-size: 22px;
+    line-height: 26px;
+    color: #454545;
+    height: 56px;
+    overflow: hidden;
+}
+
+div.contentTopPanel div.contentTileContent {
+    min-height: 80px;
+    max-height: 210px;
+    overflow: hidden;
+}
+
+div.contentTopPanel div.contentTileContentVerbiage {
+    font-size: 14px;
+    line-height: 28px !important;
+}
+
+
+/* bottom panel grid */
+
+div.contentBottomPanel div.subSectionHeader {
+    font-family: 'Segoe UI Semilight', 'Segoe UI Light', 'Segoe UI';
+    font-size: 22px;
+    color: #454545;
+    white-space: nowrap;
+    padding-bottom: 32px;
+}
+
+div.contentBottomPanel div.contentTile {
+    position: relative;
+    height: 140px;
+    width: 484px;
+    background-position: 0 3px;
+    background-repeat: no-repeat;
+    background-image: none;
+    margin-right: 12px;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+
+div.contentBottomPanel div.contentTileCanvas {
+    margin-left: 60px; 
+    padding: 0 6px 0 24px; 
+}
+
+div.contentBottomPanel h2.contentTileHeader {
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+}
+
+div.contentBottomPanel div.contentTileContent {
+    padding-top: 6px;
+    min-height: 80px;
+    overflow: hidden;
+}
+
+div.contentBottomPanel div.contentTileLogo {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+
+/* div.contentWrapper overrides */
+
+div.contentWrapper a
+div.contentWrapper a:link,
+div.contentWrapper a:visited,
+div.contentWrapper a:active,
+div.contentWrapper a:hover {
+    color: #0044cc;
+}
+div.contentWrapper a:hover {
+    text-decoration: underline;
+}
+h2.contentTileHeader a,
+h2.contentTileHeader a:link,
+h2.contentTileHeader a:visited,
+h2.contentTileHeader a:active,
+h2.contentTileHeader a:hover {
+    color: #454545;    
+}
+h2.contentTileHeader a,
+h2.contentTileHeader a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+

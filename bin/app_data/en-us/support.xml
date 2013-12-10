@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<document name="support">
+  <description>Support page for programming using Bing controls, services and APIs.</description>
+  <product image="maps-48x48.png" href="http://www.microsoft.com/maps/choose-your-bing-maps-API.aspx" target="w_BingDevCenter">
+    <header>Bing Maps</header>
+    <link target="w_BingDevCenter" href="http://social.msdn.microsoft.com/Forums/en-US/bingmapswindows8/threads">Maps for Windows Store apps</link>
+    <link target="w_BingDevCenter" href="http://social.msdn.microsoft.com/Forums/en-US/bingmapsajax/threads">Maps AJAX v7 Control</link>
+    <link target="w_BingDevCenter" href="http://social.msdn.microsoft.com/Forums/en-US/bingmapssilverlightwpfcontrols/threads">Maps WPF Control</link>
+    <link target="w_BingDevCenter" href="http://social.msdn.microsoft.com/Forums/en-US/bingmapsservices/threads">Maps REST Services</link>
+    <link target="w_BingDevCenter" href="http://social.msdn.microsoft.com/Forums/en-US/bingmapsservices/threads">Spatial Data Services</link>
+  </product>
+  <product image="speech-48x48.png" href="speech">
+    <header>Bing Speech Recognition Control</header>
+    <link target="w_BingDevCenter" href="http://social.msdn.microsoft.com/Forums/en-US/bingdev/">Bing Developer General Forum</link>
+  </product>
+  <product image="translator-48x48.png" href="translator">
+    <header>Bing Translator</header>
+    <link target="w_BingDevCenter" href="http://social.msdn.microsoft.com/Forums/en-US/microsofttranslator">Microsoft Translator Developer &amp; Web Master Support</link>
+  </product>
+  <product image="search-48x48.png" href="http://datamarket.azure.com/dataset/bing/search" target="w_BingDevCenter">
+    <header>Bing Search API</header>
+    <link target="w_BingDevCenter" href="http://social.msdn.microsoft.com/Forums/en-us/DataMarket/threads">Windows Azure Marketplace Forum</link>
+  </product>
+  <product image="ocr-32x32.png" href="ocr">
+    <header>Bing OCR Control</header>
+    <link target="w_BingDevCenter" href="http://social.msdn.microsoft.com/Forums/en-US/bingdev/">Bing Developer General Forum</link>
+  </product>
+</document>

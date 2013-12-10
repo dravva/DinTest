@@ -1,0 +1,64 @@
+﻿
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+div.outerPanel {
+    margin: 120px 0;
+    background-color: #03bdf2;
+    text-align: center;
+}
+
+div.innerPanel {
+    margin: 0 auto;
+    color: #fff;
+    width: 540px;
+    overflow: hidden;
+}
+
+div.logoBingPanel {
+    padding-top: 80px;
+}
+
+div.upperTextPanel {
+    white-space: nowrap;
+    font-family: 'Segoe UI Light', 'Segoe UI';
+    font-size: 64px;
+    line-height: 92px;
+    font-weight: lighter;
+    padding-bottom: 18px;
+}
+
+div.lowerTextPanel {
+    white-space: nowrap;
+    font-family: 'Segoe UI';
+    font-size: 36px;
+    line-height: 48px;
+}
+
+    div.lowerTextPanel a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+        div.lowerTextPanel a:hover {
+            text-decoration: none;
+        }
+
+div.logoBuildPanel {
+    width: 120px;
+    height: 120px;
+    margin: 75px auto 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+a:hover {
+    color: #fff;
+}

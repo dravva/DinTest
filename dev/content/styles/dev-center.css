@@ -1,0 +1,401 @@
+﻿
+/* div.contentWrapper defaults */
+
+div.contentWrapper {
+    padding-top: 10px;
+}
+
+div.contentWrapper,
+div.contentWrapper div {
+    line-height: 1em;
+}
+
+/* homepage hero */
+
+div#contentHeroWrapper {
+    font-family: 'Segoe UI Light','Segoe UI';
+    font-weight: lighter;
+    color: #fff;
+    visibility: hidden;
+}
+div#contentHeroActionPanelBackground {
+    visibility: hidden;
+}
+
+div.contentHeroInner {
+    width: 980px;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: none;
+}
+div.contentHeroMainPanel {
+    float: left;
+    position: relative;
+    font-size: 18px;
+    padding: 20px 0 0 22px;
+}
+div.contentHeroMainPanel div.largest {
+    font-size: 32px;
+    padding-bottom: 10px;
+    white-space: nowrap;
+}
+div.contentHeroMainPanelTop {
+    height: 175px;
+    width: 675px;
+    overflow: hidden;
+}
+div.contentHeroMainPanelBottom {
+    height: 60px;
+    float: left;
+    margin-left: 3px;
+}
+div.contentHeroMainPanelBottom div.centerAlign {
+    white-space: nowrap;
+    height: 60px;
+    line-height: 54px !important;
+}
+div.contentHeroMainPanelBottom a {
+    height: 60px;
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    padding-left: 18px;
+    padding-right: 60px;
+    background-color: #ffa719;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-image: url(../../content/images/dev-center/arrow.png);
+}
+
+div.contentHeroMainPanelBottom a,
+div.contentHeroMainPanelBottom a:link,
+div.contentHeroMainPanelBottom a:visited,
+div.contentHeroMainPanelBottom a:active,
+div.contentHeroMainPanelBottom a:hover {
+    color: #fff;
+}
+div.contentHeroActionPanel {
+    float: right;
+    height: 280px;
+    width: 280px;
+}
+div.opacity95 {
+    opacity: .95;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=95);
+    filter: alpha(opacity=95);
+}
+div.contentHeroActionPanelBackground {
+    position: absolute;
+    height: 280px;
+    width: 280px;
+    z-index: 1;
+    background-color: #1ad;
+    background-color: #68217a;
+}
+div.contentHeroActionPanelContent {
+    position: relative;
+    font-size: 20px;
+    height: 246px;
+    min-width: 220px;
+    z-index: 2;
+    padding: 22px 12px 0 26px;
+}
+div.contentHeroActionPanelContent div.normal {
+    padding: 18px 32px 0 0;
+}
+div.contentHeroActionPanelContent div.larger {
+    font-size: 24px;
+}
+span.nowrap {
+    white-space: nowrap;
+}
+
+/* hero toolbar */
+
+div.contentHeroToolbar {
+    clear: both;
+    position: relative;
+    padding-top: 8px;
+}
+span.heroLink {
+    background-color: #666;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 12px;
+    margin-right: 6px;
+    overflow: hidden;
+    width: 12px;
+}
+span.heroLink.linkSelected {
+    background-color: #ff8c00;
+}
+
+/* four column grid */
+
+div.contentResourcePanel {
+    min-height: 400px;
+    padding-top: 30px;
+}
+div.contentLeftContent {
+    float: left;
+    width: 744px;
+    overflow: hidden;
+}
+div.contentRightContent {
+    width: 236px;
+    min-height: 400px;
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+h1.contentSectionHeader {
+    font-family: 'Segoe UI Light', 'Segoe UI';
+    font-weight: lighter;
+    font-size: 26px; 
+    line-height: 26px;
+    color: #454545;
+    white-space: nowrap;
+    padding-bottom: 24px;
+}
+div.contentTile {
+    width: 236px;
+}
+div.contentTileBanner {
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+}
+div.contentTileLogo {
+    position: absolute;
+    width: 48px;
+    height: 48px; 
+}
+div.contentTileHeaderWrap {
+    padding-left:60px;
+}
+h2.contentTileHeader {
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    white-space: nowrap;
+    padding-bottom: 6px;
+    margin-top: -1px;
+}
+div.contentTileSubtext {
+    font-size: 12px;
+    color: #666;
+}
+div.contentTileContent {
+    font-size: 12px;
+    max-height: 110px;
+    overflow: hidden;
+}
+
+div.contentTileContentVerbiage {
+    position: absolute;
+    width: 236px;
+    line-height:22px !important;
+    overflow: hidden;
+}
+div.contentTileContentLinksWrapper {
+    position: relative;
+    height: 110px;
+    width: 100%;
+}
+div.contentTileContentLinks {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height:22px !important;
+    background-color: #fff;
+}
+
+div.contentLeftContent div.contentTile {
+    float: left;
+    margin-right: 12px;
+    height: 204px;
+    overflow: hidden;
+}
+
+div.contentLeftContent div.contentTileBanner div,
+div.contentLeftContent div.contentTileBanner h2 {
+    xxx-cursor: pointer;
+}
+
+/* div.contentRightContent styles */
+
+div.contentRightContent div.contentTile {
+    overflow: hidden;
+}
+div.contentRightContent h2.contentTileHeader {
+    padding-bottom: 4px;
+}
+div.contentRightContent h2.contentTileHeader span {
+    font-weight: 700
+}
+div.contentRightContent div.contentTileContent {
+    padding-top: 6px;
+}
+#blogContentLinks {
+    position: relative;
+    font-size: 12px;
+    padding: 24px 0 6px 0;
+}
+#blogContentLinks span.date {
+    font-weight: 600;
+    position: relative;
+    display: block;
+    padding-bottom: 2px;
+}
+#blogContentLinks span.link {
+    position: relative;
+    display: block;
+    width: 230px;
+    padding-bottom: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#blogContentLinks span.month {
+    font-weight: 700;
+}
+#blogContentLinks a {
+    text-decoration: none; 
+}
+
+/* success stories */
+
+div.successStoryTile {
+    position: relative;
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 12px 3px 36px 12px;
+    border-left: 4px solid #666;
+    background-color: #f8f8f8;
+}
+div.successStoryTile h2.contentTileHeader {
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    font-weight: 500; 
+    white-space: nowrap;
+    padding-bottom: 6px;
+    margin-top: -1px;
+    color: #ffa615
+}
+div.successStoryTile p {
+    color: #000;
+    font-size: 12px;
+    padding-right: 9px;
+}
+div.successStoryTile div.contentTileLinkWrapper {
+    position: absolute;
+    left: 12px;
+    bottom: 6px;
+}
+div.successStoryTile a.contentTileLink {
+    min-height: 24px;
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+}
+div.successStoryTile a,
+div.successStoryTile a.contentTileLink:link,
+div.successStoryTile a.contentTileLink:visited,
+div.successStoryTile a.contentTileLink:active,
+div.successStoryTile a.contentTileLink:hover {
+    color: #666 !important;
+}
+h2.contentTileHeader a,
+h2.contentTileHeader a:link,
+h2.contentTileHeader a:visited,
+h2.contentTileHeader a:active,
+h2.contentTileHeader a:hover {
+    color: #000;    
+}
+h2.contentTileHeader a,
+div.successStoryTile a.contentTileLink:hover {
+    text-decoration: none;
+}
+div.successStoryTile div.contentTileLinkText {
+    height: 24px;
+    line-height: 20px;
+    padding-right: 32px;
+}
+
+/* link hover overrides */
+
+div.contentLeftContent a:hover,
+div.contentRightContent a:hover {
+    text-decoration: underline;
+}
+h2.contentTileHeader a:hover,
+div.contentRightContent a.contentTileLink:hover {
+    text-decoration: none;
+}
+
+/* div.contentWrapper line-height overrides */
+
+div.contentHeroActionPanelContent div.normal {
+    line-height: 36px !important;
+}
+div.contentTileContent,
+div.successStoryTile p {
+    line-height: 22px !important;
+}
+div.contentRightContent div.contentTileSubtext,
+#blogContentLinks span.link {
+    line-height: 18px !important;
+}
+
+div.HeroPanelProductLinks {
+    font-family: 'Segoe UI Light','Segoe UI';
+    font-weight: lighter;
+    font-size: 18px;
+    position: absolute;
+    width: 710px;
+}
+
+div.HeroPanelProductLinkItem {
+    margin-top: 105px;
+    margin-left: 20px;
+}
+
+div.HeroPanelProductLinks a {
+    display: block;
+    float: left;
+    margin: 0 20px 0 0;
+    color: #1ad;
+    background-color: #f9f9f9;
+    width: 190px;
+    height: 150px;
+    overflow: hidden;
+    padding: 5px 5px 0 12px;
+}
+
+div.HeroPanelProductLinks a:hover {
+    color: #099;
+    background-color: #fff;
+}
+
+div.HeroPanelTextLarger {
+    font-size: 22px;
+    line-height: 32px !important;
+    font-weight: 600
+}
+div.HeroPanelTextNormal {
+    padding-top: 9px
+}
+
+div.contentHeroActionPanel a,
+div.contentHeroActionPanel a:link,
+div.contentHeroActionPanel a:visited,
+div.contentHeroActionPanel a:active,
+div.contentHeroActionPanel a:hover {
+    color: #fff
+}
+
+div.contentHeroActionPanel a:hover {
+    text-decoration: underline;
+}

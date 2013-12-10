@@ -1,0 +1,183 @@
+
+/* generic classes */
+
+div.Clear {
+    clear: both;
+}
+
+/* search results container */
+
+div#Search {
+}
+table.SearchTableFixedLayout,
+table#SearchTable {
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    width: 100%;
+}
+td#ContentTableCell {
+}
+td#ContentTableCell.content {
+}
+div#SearchResultsDisplay {
+    clear: both;
+}
+div.SearchResult {    
+    width: 100%;
+}
+div.ResultItemRight,
+div.ResultItemThumbnail {
+    display: none;
+}
+div.result {
+    word-wrap: break-word;
+    font-size: 12px;
+}
+div.result a {
+}
+
+div.result a.resultTitleLink,
+div.result div.ResultDescription,
+div.result div.ResultUrl {
+    line-height: 20px;
+}
+
+div.result div.ResultUrl {
+    color: rgb(83, 156, 0);
+    padding-top: 3px;
+}
+div.result div.ResultMetaData {
+    display: none;
+}
+div.ResultSeperator {
+    height: 20px;
+    clear: both;
+    overflow: hidden;
+}
+
+/* results information container */
+
+div.SearchInfo {
+}
+div.ResultsNavPanel {    
+    padding-bottom: 20px;
+}
+div#ResultsMessageDiv {
+}
+span.ResultsMessage {
+    color: rgb(69, 69, 69);
+    font-size: 12px;
+    line-height: 20px;
+}
+span.ResultsMessage span {
+    font-weight: bold;
+}
+span#SearchResultsQueryString b {
+    color: #b75f11;
+}
+span.Elapsed {
+    display: none;
+}
+span.Elapsed a.RssLink {
+}
+span.Elapsed div.rssfeed {
+}
+
+/* results paging container */
+
+div.PagingDiv {
+    font-size: 13px;
+    white-space: nowrap;        
+}
+div.PagingDiv div {
+    padding: 0 1em 0 0;
+    display: inline;
+    float: left;
+}
+div.PagingDiv div a {
+}
+a#PreviousPageLink {
+}
+a#PreviousPageLink span {
+}
+a#NextPageLink {
+}
+a#NextPageLink span {
+}
+
+/* zero-results info container */
+
+div.NoResultsContainer,
+div#NoResultsContainer {
+    font-size: 12px;
+    padding-top: 3px;
+} 
+div.HelpPanel {
+}    
+div.NoResultsMessage {
+}    
+div.headerText {
+    font-weight: bold;
+}
+span.inlineRtl {
+}
+div.headerText strong {
+    color: #b75f11;
+}
+div.NoResultsMessage ol, 
+div.NoResultsMessage ul {
+    line-height: 125%;
+    margin: 0 0 12px;
+    padding-left: 26px;
+}
+div.NoResultsMessage ul {
+    padding: 0;
+    margin: 0 0 0 50px;
+}
+div.NoResultsMessage li {
+    padding: 0 0 3px;
+    margin: 10px 0 2px;
+}
+div.NoResultsMessage ul li#RefinementsNoResultsItem {
+    display: none;
+}
+
+/* zero-query info container */
+
+div.SearchHelpContainer {
+	padding-right: 230px;
+}
+div.SearchHelpContainer p {
+    font-weight: bold;
+	margin: 0 0 3px 0;
+}
+table#SearchHelpTable {
+	width: 100%;
+	margin: 10px 0 20px 0;
+	border-color: #a0a0a0;
+	border-width: 1px;
+	border-style: outset;
+	border-collapse: collapse;
+	border-spacing: 1px;
+}
+table#SearchHelpTable th,
+table#SearchHelpTable td {
+	padding: 8px;
+	border-color: #a0a0a0;
+	border-width: 1px;
+	border-style: inset;
+}
+table#SearchHelpTable th {	
+	font-weight: bold;
+	background-color: rgb(208, 208, 208);
+}
+table#SearchHelpTable span
+{
+	font-style: italic;
+}
+table#SearchHelpTable b
+{
+	font-style: normal;
+	font-weight: bold;
+}

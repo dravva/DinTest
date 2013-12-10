@@ -1,0 +1,182 @@
+﻿
+/* div.contentWrapper defaults */
+
+div.contentWrapper {
+    padding-top: 32px;
+}
+div.contentWrapper,
+div.contentWrapper div {
+    line-height: 1em;
+}
+span.nowrap {
+    white-space: nowrap;
+}
+
+/* grid common properties */
+
+div.contentBottomPanel,
+div.contentTopPanel {
+    width: 998px; 
+    overflow: hidden;
+	font-family: 'Segoe UI Semilight', 'Segoe UI Light', 'Segoe UI';
+}
+div.contentTile {
+    float: left;
+    overflow: hidden;
+}
+h1.contentSectionHeader {
+    font-size: 28px;
+    line-height: 1em;
+    padding-bottom: 42px;
+    color: #454545;
+    white-space: nowrap;
+}
+h2.contentTileHeader {
+	color: #454545;
+	font-size: 22px;
+	line-height: 1em;
+	white-space: nowrap;
+}
+h3.contentTileSubHeader {
+    color: #000;
+	font-size: 16px;
+	line-height: 1em;
+	white-space: nowrap;
+}
+div.contentTopPanel div.contentTile p,
+div.contentTopPanel div.contentTile ol,
+div.contentTopPanel div.contentTile ul {
+	font-family: 'Segoe UI';
+	color: #333;
+}
+
+/* top panel */
+
+div.contentTopPanel {
+    position: relative;
+    clear: both;
+}
+div.contentTopPanel div.contentHeroPanelWrapper {
+    float: left;
+    padding-top: 2px;
+    width: 484px;
+    height: 282px;
+    overflow: hidden;
+}
+div.contentTopPanel div.contentHeroPanel {
+    width: 484px;
+    height: 280px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: none;
+}
+div.contentTopPanel div.contentHeroPanelText {
+    margin: 12px 0 0 12px;
+    background-color: #ffa719;
+    color: #fff;
+    width: 180px;
+    overflow: hidden;
+}
+div.contentTopPanel div.contentHeroPanelText div {
+    padding: 16px 12px 24px 24px;
+    font-size: 24px;
+    line-height: 32px !important;
+}
+div.contentTopPanel div.contentTile {
+    float: left;
+    width: 496px;
+    height: 280px;
+    overflow: hidden;
+}
+div.contentTopPanel div.contentTileCanvas {
+    padding-left: 24px;
+}
+div.contentTopPanel div.contentTileSubsection {
+    padding-bottom: 10px
+}
+div.contentTopPanel h2.contentTileHeader {
+	padding-bottom: 12px;
+}
+div.contentTopPanel h3.contentTileSubHeader {
+	line-height: 22px;
+}
+
+div.contentTopPanel div.contentTile p,
+div.contentTopPanel div.contentTile ol,
+div.contentTopPanel div.contentTile ul {
+	font-size: 14px;
+	/* line-height: 28px; */
+	line-height: 22px;
+}
+div.contentTopPanel div.contentTile  ol li {
+    margin: 0 0;
+    padding-left: 0;
+    list-style-position: inside;
+}
+div.contentTopPanel div.contentTile  ul li {
+    margin: 0 0;
+    list-style-type: none;
+}
+
+/* bottom panel */
+
+div.contentBottomPanel {
+    padding-top: 38px;
+}
+div.contentBottomPanel div.contentTile {
+    float: left;
+    width: 318px;
+    height: 270px;
+    overflow: hidden;
+    margin-right: 13px;
+    margin-bottom: 13px;
+    background-color: #f6f6f6;  /* #d4d4d4 @ 20% */
+    background-color: #fafafa;  /* #d4d4d4 @ 10% */
+    background-color: #f8f8f8;  /* #d4d4d4 @ 15% */
+}
+div.contentBottomPanel div.contentTileCanvas {
+    padding: 20px 0 0 24px;
+    height: 248px;
+    overflow: hidden;
+}
+div.contentBottomPanel div.contentTileContentLinks,
+div.contentBottomPanel div.contentTileContentVerbiage {
+    padding-right: 6px;
+}
+div.contentBottomPanel h2.contentTileHeader {
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+div.contentBottomPanel h3.contentTileSubHeader {
+    padding-bottom: 8px;
+}
+div.contentBottomPanel div.contentTileSubsection {
+    padding-bottom: 12px
+}
+
+div.contentBottomPanel div.contentTile p,
+div.contentBottomPanel div.contentTile ol,
+div.contentBottomPanel div.contentTile ul {
+	font-size: 12px;
+	line-height: 24px;
+}
+div.contentBottomPanel div.contentTile  ol li {
+    margin: 0 0;
+    padding-left: 0;
+    list-style-position: inside;
+}
+div.contentBottomPanel div.contentTile  ul li {
+    margin: 0 0;
+    list-style-type: none;
+}
+
+div.contentBottomPanel div.contentTile ol,
+div.contentBottomPanel div.contentTile ul {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+
+
+

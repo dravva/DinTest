@@ -1,0 +1,398 @@
+﻿html {
+    overflow-y: scroll;
+    font-size: 14px;
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, img, form, ol, ul, label, table, tbody, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    font-family: 'Segoe UI', Segoe, Tahoma, Verdana, Arial, 'sans-serif';
+    color: #333;
+}
+
+a, a:link, a:visited, a:active, a:hover {
+    color: #04c;
+}
+a {
+    text-decoration: none;
+}
+
+div.pageWrapper {
+    margin: 0 auto;
+    padding-top: 0;
+    width: 980px;
+}
+
+/* div.headerWrapper styles */
+
+div.headerWrapper {
+    line-height: 1em;
+    padding-top: 28px; /* as spec'd */
+    padding-top: 18px;
+    color: #666;
+}
+div.headerLeftContent {
+    float: left;
+}
+div.headerRightContent {
+    float: right;
+}
+div.headerWrapper a,
+div.headerWrapper a:link,
+div.headerWrapper a:visited,
+div.headerWrapper a:active,
+div.headerWrapper a:hover {
+    color: #666;
+}
+div.headerWrapper a {
+    text-decoration: none;
+}
+div.headerLogoWrapper {
+    height: 28px;
+    overflow: hidden;
+    font-family: 'Segoe UI Light', 'Segoe UI';
+    font-weight: lighter;
+    font-size: 18px;
+}
+div.headerLogoImage {
+    float: left;
+    height: 25px;
+    overflow: hidden;
+    width: 65px;
+    position: relative;
+    margin-right: 15px;
+}
+.headerLogoImage img {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+div.headerLogoImage span {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+div.headerLogoText {
+    height: 20px;
+    float: left;
+    padding: 5px 0 0 15px;
+    color: #666;
+    border-left: 1px solid #999;
+}
+div.headerSearchWrapper {
+    float: right;
+    height: 28px;
+    width: 262px;
+    overflow: hidden;
+}
+
+div.headerSearchBox,
+#resultSearchBox {
+    float: left;
+    height: 23px;
+    width: 259px;
+    margin: 0;
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    overflow: hidden;
+}
+
+#headerSearchBoxText,
+#resultSearchBoxText {
+    float: left;
+    font-family: 'Segoe UI';
+    font-size: 12px;
+    width: 230px;
+    border-width: 0;
+    margin: 0;
+    padding: 4px 0 0 6px;
+    color: #666;
+}
+
+#headerSearchBoxButton,
+#resultSearchBoxButton {
+    float: right;
+    height: 16px;
+    width: 16px;
+    border-width: 0;
+    margin: 4px 5px 0 0;
+    overflow: hidden;
+    padding: 0;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: -168px -3px;
+    background-image: url(../../content/images/chrome/image-sprite.png); 
+}
+
+div.breadcrumbNavigation {
+    clear: both;
+    width: 100%;
+    font-size: 12px;
+    color: #454545;
+    padding-top: 6px;
+    height: 1em;
+}
+
+span.breadcrumbDivider {
+    position: relative;
+    padding: 0 4px;
+}
+
+div.headerNavigation {
+    clear: both;
+    width: 100%;
+    font-size: 14px;
+    padding-top: 18px;
+    height: 22px;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+div.headerNavigation ul {
+    display: block;
+    clear: both;
+    width: 100%;
+}
+div.headerNavigation li {
+    display: inline;
+    float: left;
+    list-style-type: none;
+    white-space: nowrap;
+    margin: 0;
+    padding-right: 25px;
+}
+div.headerNavigation a,
+div.headerNavigation a:link,
+div.headerNavigation a:visited,
+div.headerNavigation a:active {
+    color: #666;
+}
+div.breadcrumbNavigation a,
+div.breadcrumbNavigation a:link,
+div.breadcrumbNavigation a:visited,
+div.breadcrumbNavigation a:active {
+    color: #454545;
+}
+div.breadcrumbNavigation a, 
+div.headerNavigation a {
+    text-decoration: none;
+}
+div.breadcrumbNavigation a:hover,
+div.headerNavigation a:hover {
+    color: #333;
+}
+div.headerNavigation a.selectedLink,
+div.headerNavigation a.selectedLink:link,
+div.headerNavigation a.selectedLink:visited,
+div.headerNavigation a.selectedLink:active
+div.headerNavigation a.selectedLink:hover {
+    color: #ffa615;
+    color: #e6c030;
+    color: #e9b929;
+}
+
+/* div.footerWrapper styles */
+
+div.footerWrapper {
+    position: relative;
+    clear: both;
+    margin-bottom: 18px;
+    font-size: 12px;
+    padding-top: 22px;
+    border-top: 1px solid #ccc;
+    color: #666;
+}
+div.footerLeftContent {
+    float: left;
+}
+div.footerRightContent {
+    float: right;
+}
+div.footerWrapper a,
+div.footerWrapper a:link,
+div.footerWrapper a:visited,
+div.footerWrapper a:active,
+div.footerWrapper a:hover {
+    color: #666;
+}
+div.footerWrapper a {
+    text-decoration: none;
+}
+div.footerWrapper a.selectedLink,
+div.footerWrapper a.selectedLink:link,
+div.footerWrapper a.selectedLink:visited,
+div.footerWrapper a.selectedLink:active,
+div.footerWrapper a:hover {
+    color: #333;
+}
+div.footerMSLogo {
+    float: left;
+    height: 20px;
+    width: 88px;
+    overflow: hidden;
+    margin-top: -6px;
+}
+div.footerMSLogo a {
+    display: block;
+    height: 20px;
+    width: 88px;
+    padding-top: 9px;
+    background-repeat: no-repeat;
+    background-position: -3px 0;
+    background-image: url(../../content/images/chrome/image-sprite.png); 
+}
+div.footerMSLogo a span {
+    display: none;
+}
+/*
+div.footerCopyright {
+    float: left;
+    padding-right: 32px;
+}
+*/
+div.footerNavigation {
+    float: left;
+}
+div.footerNavigation li {
+    display: inline;
+    float: left;
+    list-style-type: none;
+    border-left: 1px solid #707070;
+    padding-left: 10px;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+div.footerNavigation li:first-child {
+    border-left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* social media link styles */
+
+/*
+div.footerSocialMediaText {
+    float: left;
+}
+div.footerSocialMediaLinks {
+    float: left;
+    margin-top: -6px;
+}
+div.footerSocialMediaLinks li {
+    display: inline;
+    float: left;
+    list-style-type: none;
+    padding-left: 6px;
+    white-space: nowrap;
+}
+div.footerSocialMediaLinks a {
+    display: block;
+    height: 25px;
+    width: 25px;
+    overflow: hidden;
+    background-color: #a5a5a5;
+    background-image: url(../../content/images/social_media_85x25.png);
+}
+div.footerFacebookIcon a {
+    background-position: 0 0;
+}
+div.footerTwitterIcon a {
+    background-position: -30px 0;
+}
+div.footerLinkedinIcon a {
+    background-position: -60px 0;
+}
+div.footerSocialMediaLinks a:hover {
+    background-color: #69a;
+}
+div.footerSocialMediaLinks span {
+    display: none;
+}
+*/
+
+/* generic styles */
+
+.clear {
+    height: 0;
+    clear: both;
+    overflow: hidden;
+}
+
+/* msdn search-box styles */
+
+div#SearchFlyoutContainer li {
+    font-size: 12px;
+    color: #014;
+}
+div#SearchFlyoutContainer li:hover {
+    background-color: #e2e2e2;
+}
+
+h4.genH4 {
+    margin-top: 32px;
+    font-family: 'Segoe UI Light', 'Segoe UI';
+    font-size: 24px;
+    color: #454545;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+div.contentWrapper {
+    min-height: 460px;
+    padding-bottom: 40px;
+}
+
+/* background on any active link */
+    a:active {
+        background-color: transparent !important;
+} 
+
+
+
+
+/* translator widget */
+    
+#MicrosoftTranslatorWidget {
+    width: 200px; 
+    height: 25px; 
+    border-width: 0 !important;
+    overflow: hidden;
+}
+span.MSTWBox span,
+#MSTWHeaderText,
+#MSTWFooter {
+    visibility: hidden !important;
+    overflow: hidden !important;
+}
+span.MSTWBox span{
+    display: none !important;
+}
+span.MSTWBox span,
+#MSTWHeaderText,
+#MSTWFooter {
+    border-width: 0 !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#MSTWGoButton,
+#MSTWGoImage {
+    background-color: #ffa719 !important;
+    border-width: 0 !important;
+}
+span.MSTWBox select {
+    font-family: verdana, tahoma, arial;
+    font-size: 10px;
+    height: 20px;
+}
+span.MSTWBox select,
+#MSTWGoButton {
+    border: 1px solid #987 !important;
+}

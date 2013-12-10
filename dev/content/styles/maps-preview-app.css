@@ -1,0 +1,180 @@
+﻿@charset "utf-8";
+
+/* hide toolbar elements */
+
+div.headerLogoText,
+div.headerRightContent,
+div.headerNavigation ul,
+div.footerRightContent {
+    display: none;
+}
+
+div.headerNavigation {
+    height: 1px;
+    overflow: hidden;
+    margin: 0;
+    padding: 6px 0 0 0;
+}
+
+/* div.contentWrapper defaults */
+
+div.contentWrapper {
+    padding-top: 36px;
+}
+
+div.mapsPreviewAppContent {
+	font-family: 'Segoe UI', 'Segoe UI Light', 'Segoe UI Black', 'Segoe UI Semibold', 'Segoe UI Semilight', 'Segoe UI Symbol';
+    font-weight: normal;
+    font-size: 16px;
+    color: #333;
+}
+
+div.contentPageHeader {    
+    font-weight: lighter;
+}
+
+h1.contentSectionHeader,
+div.contentSectionHeaderSubtext {
+    color: #06f;
+	font-weight: lighter;
+	margin-left: 5px;
+}
+
+h1.contentSectionHeader {
+	font-size: xx-large;
+}
+
+div.contentSectionHeaderSubtext {
+    font-size: medium;
+    padding: 3px 0 19px 0;
+}
+
+/* homepage hero */
+
+div#contentHeroWrapper {
+    color: #fff;
+    visibility: hidden;
+    font-weight: lighter;
+}
+
+div#heroImageWrapper {
+    position: absolute;
+    width: 980px;
+    height: 306px;
+    overflow: hidden;
+}
+
+div.contentHeroInner {
+    width: 980px;
+    height: 306px;
+    background-image: none;
+}
+
+/* hero toolbar */
+
+div.contentHeroToolbar {
+    clear: both;
+    position: relative;
+    padding-top: 8px;
+}
+
+span.heroLink {
+    background-color: #666;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 12px;
+    margin-right: 6px;
+    overflow: hidden;
+    width: 12px;
+}
+
+span.heroLink.linkSelected {
+    background-color: #ff8c00;
+}
+
+/* two column grid */
+
+div.contentResourcePanel {
+    min-height: 400px;
+    padding-top: 6px;
+}
+
+div.contentInnerPanel {
+    float: left;
+    width: 1030px;
+    overflow: hidden;
+    margin-bottom: 76px;
+}
+
+div.contentTileContent {
+    width: 980px;
+    font-size: medium;
+    margin-left: 5px;
+}
+
+div.contentTile {
+    float: left;
+    width: 486px;
+    height: 150px;
+    margin: 0 8px 8px 0;
+    background-color: #ccc;
+    overflow: hidden;
+}
+
+div.contentTileImagePanel {
+    position: absolute;
+    width: 486px;
+    height: 150px;
+    overflow: hidden;
+}
+
+h2.contentSectionSubHeader {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 16px;
+    height: 20px;
+    color: #333;
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+
+/* link panels */
+
+div.contentHeroInner a,
+div.contentTile a {
+    position: relative;
+    display: table-cell;
+    vertical-align: bottom;
+    color: #fff;
+    width: 486px;
+    height: 150px;
+    font-size: x-large;
+    line-height: 120%; 
+    font-family: 'Segoe UI', 'Segoe UI Light';
+    font-style: normal;
+    font-weight: lighter;
+    text-shadow: 0 0 4px #000;
+}
+
+div.contentHeroInner a {
+    width: 980px;
+    height: 306px;
+    font-size: xx-large;
+    text-shadow: 0 0 10px #000;
+}
+
+span.contentHeroText,
+span.contentTileText {
+    display: block;
+    padding-left: 15px;
+    padding-bottom: 4px;
+    padding-top: 2px;
+    background: rgba(0, 0, 0, .35);
+}
+
+span.contentHeroText {
+    padding-left: 14px;
+    padding-bottom: 6px;
+    padding-top: 2px;
+}
