@@ -58,7 +58,7 @@
   <products>
     <product image="maps-48x48.png" href="http://www.microsoft.com/maps/choose-your-bing-maps-API.aspx" target="w_BingDevCenter">
       <header>Maps</header>
-      <subtext>Building with Bing Maps</subtext>
+      <subtext>Building with Bing Maps 2</subtext>
       <content>
         <![CDATA[
           <p>Bing Maps Platform offers a set of APIs to incorporate the latest maps, 
